@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T13:58:52.573Z" agent="5.0 (X11; CrOS aarch64 13597.23.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.37 Safari/537.36" etag="0CCmORxGKPbERjT3cZMv" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T16:19:49.913Z" agent="5.0 (X11; CrOS aarch64 13597.23.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.37 Safari/537.36" etag="4veNNmdqL74mg9ZxdGiO" version="14.0.1" type="github">
   <diagram id="w4rcHG7nrkcWx53ks9_f" name="Page-1">
-    <mxGraphModel dx="2076" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="1461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,6 +58,9 @@
         <mxCell id="N1h0rAv2q1dxo_BZ0Bss-42" value="Prelive 3" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="260" y="-620" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="N1h0rAv2q1dxo_BZ0Bss-45" target="N1h0rAv2q1dxo_BZ0Bss-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="N1h0rAv2q1dxo_BZ0Bss-45" value="Prelive 2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="460" y="-620" width="120" height="60" as="geometry" />
         </mxCell>
@@ -91,8 +94,8 @@
             <mxPoint x="919.5799999999999" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VMuwkLuU07V1-MAFjMq8-1" value="www-dev.theaa.digital" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="260" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-1" value="sites.dev.theaa.digital" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VMuwkLuU07V1-MAFjMq8-2" value="www-uat.theaa.digital" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="460" y="40" width="120" height="60" as="geometry" />
@@ -130,11 +133,8 @@
         <mxCell id="VMuwkLuU07V1-MAFjMq8-13" value="Test &lt;i&gt;n&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="-510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VMuwkLuU07V1-MAFjMq8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="VMuwkLuU07V1-MAFjMq8-15" target="VMuwkLuU07V1-MAFjMq8-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="VMuwkLuU07V1-MAFjMq8-15" value="Prelive &lt;i&gt;n&lt;/i&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="-510" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="-510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VMuwkLuU07V1-MAFjMq8-35" value="&lt;b&gt;Non release path environment&lt;/b&gt;&lt;br&gt;Dedicated Sitecore environment, typically with shared Content database.&lt;br&gt;&lt;br&gt;Typically updated with latest code from Sitecore &#39;release&#39; branch after fortnightly deployment." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=#CCCCFF;" vertex="1" parent="1">
           <mxGeometry x="1040" y="-500" width="380" height="60" as="geometry" />
@@ -155,10 +155,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VMuwkLuU07V1-MAFjMq8-41" value="&lt;b&gt;Insurance Prelive 5 Configuration&lt;/b&gt;&lt;br&gt;Digital Insurance sales &amp;amp; aggregators configured for Prelive5 to support external texting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=#CCCCFF;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-250" width="380" height="60" as="geometry" />
+          <mxGeometry x="610" y="-250" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VMuwkLuU07V1-MAFjMq8-42" value="&lt;b&gt;Release path environment&lt;/b&gt;&lt;br&gt;Code going into the release path branch &lt;u&gt;will&lt;/u&gt;&amp;nbsp;be released." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=#CCCCFF;" vertex="1" parent="1">
           <mxGeometry x="1040" y="-90" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="VMuwkLuU07V1-MAFjMq8-43" target="N1h0rAv2q1dxo_BZ0Bss-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="VMuwkLuU07V1-MAFjMq8-43" target="VMuwkLuU07V1-MAFjMq8-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-43" value="di-develop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-45" value="DIP Test &lt;i&gt;n&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-49" value="www-&lt;i&gt;n.&lt;/i&gt;theaa.digital" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-53" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="209.5800000000001" as="sourcePoint" />
+            <mxPoint x="400" y="209.57999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-54" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="-480.3399999999998" as="sourcePoint" />
+            <mxPoint x="390" y="-480.34000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-57" value="&lt;b&gt;Non release path environment&lt;/b&gt;&lt;br&gt;Dedicated DIP environments (i.e. MDM, Apollo)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=#CCCCFF;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="180" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-64" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="568" y="440" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-65" value="Prelive 6" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="820" y="384" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-66" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="820" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VMuwkLuU07V1-MAFjMq8-70" value="&lt;b&gt;AA Mobile Use Case&lt;br&gt;&lt;/b&gt;Mobile App has multiple configuration points where environment connectivity can be set.&amp;nbsp;&lt;br&gt;It is possible to configure the app to use different endpoints.&amp;nbsp; In this use case, &quot;prelive6theaa.com&quot; configuration is used for&amp;nbsp;&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="60" y="404" width="440" height="106" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
